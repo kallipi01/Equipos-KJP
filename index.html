@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos KJP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/computadora.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="./index.html" class="logo">Equipos KJP</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./img/menu.png" alt="menu" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/productos.html">Productos</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+
+                <ul>
+                    <li class="submenu">
+                        <img src="./img/car.svg" alt="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" class="btn-2" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="./img/banner.jpg" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas en tecnología</h1>
+                <p>Los mejores precios en celulares, tablets y computadoras</p>
+                <a href="./pages/productos.html" class="btn-1">Descubre más</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./img/s21.png" alt="Celular en oferta">
+            </div>
+            <div class="ofert-txt">
+                <h3>Celular Samsung Galaxy S21</h3>
+                <a href="./pages/productos.html" class="btn-2">Más información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./img/TABLET IPAD AIR 2022.png" alt="Tablet en oferta">
+            </div>
+            <div class="ofert-txt">
+                <h3>Tablet iPad Air 2022</h3>
+                <a href="./pages/productos.html" class="btn-2">Más información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="./img/LAPTOP DELL XPS 13.png" alt="Laptop en oferta">
+            </div>
+            <div class="ofert-txt">
+                <h3>Laptop Dell XPS 13</h3>
+                <a href="./pages/productos.html" class="btn-2">Más información</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nosotros">
+        <div class="sobre-nosotros-content">
+            <div class="sobre-nosotros-img">
+                <img src="./img/banner tienda de celulares.jpg" alt="Sobre Nosotros">
+            </div>
+            <div class="sobre-nosotros-txt">
+                <h2>Sobre Nosotros</h2>
+                <p>En Equipos KJP, estamos comprometidos a ofrecerte los mejores productos tecnológicos del mercado a los precios más competitivos. Con años de experiencia en el sector, nuestro equipo se dedica a proporcionar un servicio al cliente excepcional y a garantizar que cada compra sea satisfactoria. Trabajamos directamente con los principales fabricantes para asegurar la calidad y autenticidad de nuestros productos. ¡Explora nuestro catálogo y descubre la tecnología de vanguardia que tenemos para ti!</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Catálogo de Productos</h2>
+        <div class="product-content">
+
+            <div class="product">
+                <img src="./img/Iphone 13.png" alt="Celular iPhone 13">
+                <div class="product-txt">
+                    <h3>iPhone 13</h3>
+                    <p>Celular de última generación</p>
+                    <p class="precio">$999</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/SAMSUNG GALAXY TAB.png" alt="Tablet Samsung">
+                <div class="product-txt">
+                    <h3>Samsung Galaxy Tab</h3>
+                    <p>Alta velocidad y rendimiento</p>
+                    <p class="precio">$499</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/LENOVO THINKPAD.png" alt="Laptop Lenovo">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad</h3>
+                    <p>Diseño robusto y potente</p>
+                    <p class="precio">$799</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/ONEPLUS 9 PRO.png" alt="Celular OnePlus">
+                <div class="product-txt">
+                    <h3>OnePlus 9 Pro</h3>
+                    <p>Fotografía avanzada</p>
+                    <p class="precio">$899</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/HUAWEI MATEPAD.png" alt="Tablet Huawei">
+                <div class="product-txt">
+                    <h3>Huawei MatePad</h3>
+                    <p>Gran pantalla y resolución</p>
+                    <p class="precio">$399</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="./img/HP PAVILION.png" alt="Laptop HP">
+                <div class="product-txt">
+                    <h3>HP Pavilion</h3>
+                    <p>Rendimiento para multitareas</p>
+                    <p class="precio">$599</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="products-button">
+        <a href="./pages/productos.html" class="btn-1">Descubre más</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces útiles</h3>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="./pages/contacto.html">Contacto</a>
+            </div>
+            <div class="footer-section">
+                <h3>Acerca de</h3>
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/productos.html">Productos</a>
+            </div>
+            <div class="footer-section footer-bottom">
+                <p>Equipos KJP © 2024 Todos los derechos reservados</p><br>
+                <p class="Nombres">Pagina web realizada por Jeison Amparo Abreu y Karla Marte Perez</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Equipos KJP</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/computadora.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="../index.html" class="logo">Equipos KJP</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="../img/menu.png" alt="menu" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="../img/car.svg" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" class="btn-2" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content-productos container">
+            <div class="header-txt">
+                <h1>Catálogo de Productos</h1>
+                <p>Descubre la tecnología más reciente y avanzada que tenemos para ti.</p>
+                <a href="#Productos" class="btn-1">Descubre más</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-buttons-container">
+        <div class="nav-buttons">
+            <button onclick="filterProjects('celulares')">Celulares</button>
+            <button onclick="filterProjects('tablets')">Tablets</button>
+            <button onclick="filterProjects('computadoras')">Computadoras</button>
+            <button onclick="filterProjects('all')">Todos</button>
+        </div>
+    </div>
+
+    <main class="products container" id="lista-1">
+        <h2 id="Productos">Catálogo de Productos</h2>
+        <div class="product-content">
+
+            <div class="product celulares">
+                <img src="../img/Iphone 13.png" alt="Celular iPhone 13">
+                <div class="product-txt">
+                    <h3>iPhone 13</h3>
+                    <p>Celular de última generación</p>
+                    <p class="precio">$999</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/IPHONE 11.png" alt="Celular iPhone 11">
+                <div class="product-txt">
+                    <h3>iPhone 11</h3>
+                    <p>Celular de última generación con excelente rendimiento</p>
+                    <p class="precio">$999</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/IPHONE 14.png" alt="Celular iPhone 14">
+                <div class="product-txt">
+                    <h3>iPhone 14</h3>
+                    <p>Mejoras en cámara y rendimiento</p>
+                    <p class="precio">$1099</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/IPHONE 15.png" alt="Celular iPhone 15">
+                <div class="product-txt">
+                    <h3>iPhone 15</h3>
+                    <p>Última tecnología y diseño innovador</p>
+                    <p class="precio">$1199</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/SAMSUNG GALAXY S21.png" alt="Celular Samsung Galaxy S21">
+                <div class="product-txt">
+                    <h3>Samsung Galaxy S21</h3>
+                    <p>Rendimiento rápido y cámara avanzada</p>
+                    <p class="precio">$899</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/GOOGLE PIXEL 6.png" alt="Celular Google Pixel 6">
+                <div class="product-txt">
+                    <h3>Google Pixel 6</h3>
+                    <p>Software puro y excelente cámara</p>
+                    <p class="precio">$799</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product celulares">
+                <img src="../img/XIAOMI MI 11.png" alt="Celular Xiaomi Mi 11">
+                <div class="product-txt">
+                    <h3>Xiaomi Mi 11</h3>
+                    <p>Gran rendimiento y excelente relación calidad-precio</p>
+                    <p class="precio">$749</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product tablets">
+                <img src="../img/SAMSUNG GALAXY TAB.png" alt="Tablet Samsung">
+                <div class="product-txt">
+                    <h3>Samsung Galaxy Tab</h3>
+                    <p>Alta velocidad y rendimiento</p>
+                    <p class="precio">$499</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product tablets">
+                <img src="../img/HUAWEI MATEPAD.png" alt="Tablet Huawei">
+                <div class="product-txt">
+                    <h3>Huawei MatePad</h3>
+                    <p>Gran pantalla y resolución</p>
+                    <p class="precio">$399</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product computadoras">
+                <img src="../img/LENOVO THINKPAD.png" alt="Laptop Lenovo">
+                <div class="product-txt">
+                    <h3>Lenovo ThinkPad</h3>
+                    <p>Diseño robusto y potente</p>
+                    <p class="precio">$799</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product computadoras">
+                <img src="../img/HP PAVILION.png" alt="Laptop HP">
+                <div class="product-txt">
+                    <h3>HP Pavilion</h3>
+                    <p>Rendimiento para multitareas</p>
+                    <p class="precio">$599</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces útiles</h3>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+            <div class="footer-section">
+                <h3>Acerca de</h3>
+                <a href="../index.html">Inicio</a>
+                <a href="./productos.html">Productos</a>
+            </div>
+            <div class="footer-section footer-bottom">
+                <p>Equipos KJP © 2024 Todos los derechos reservados</p><br>
+                <p class="Nombres">Pagina web realizada por Jeison Amparo Abreu y Karla Marte Perez</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/filter.js"></script>
+</body>
+
+</html>
